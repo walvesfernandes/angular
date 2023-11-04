@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  sayHello(nombre:string): void{
+    console.log(nombre);
+    
+  }
+
+  sumar(num1:number, num2: number): number{
+return(num1+num2);
+  }
+
   title = 'crud-angular';
 }
